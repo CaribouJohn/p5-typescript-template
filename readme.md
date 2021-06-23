@@ -41,12 +41,12 @@ __build__ will generate a set of files that will allow you to publish the pag.
 ![build](images\buildterm.png)
 
 ## How it works
-
 This is the first iteration of the library and as such it simply allows me to get started. I decided to include the p5 code from the [Wolfram CA example](https://p5js.org/examples/simulate-wolfram-ca.html)
 
-The code will show the minimal changes required to get the examples running (mostly the addition of ```p5.``` to calls)
+* All code lives under the ```src``` directory and should be written in typescript (although javascript is allowed by the ```tsconfig.json```) , and the build is put into the ```dist``` folder. 
+* The html file references the ```src/index.ts``` rather than the javascript and parcel will handle the rest. E.G.  ```<script src="src/index.ts"></script>```
 
-The html file references the ```src/index.ts``` rather than the javascript and parcel will handle the rest.
+The code will show the minimal changes required to get the examples running (mostly the addition of ```p5.``` to calls)
 
 The example uses [Instanced mode](https://p5js.org/reference/#/p5/p5)
 ```
