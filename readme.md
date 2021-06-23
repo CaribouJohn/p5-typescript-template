@@ -30,7 +30,7 @@ the project uses npm scripting to invoke parcel in vscode these can be seen in t
 
 __start__ will compile the code 
 
-![term](images\terminal.png)
+![term](images/terminal.png)
 
 and open a browser window
 
