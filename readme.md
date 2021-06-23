@@ -22,7 +22,7 @@ Now if you are on the command line start visual studio code using ```code .``` o
 
 ## Build 
 
-the project uses npm scripting to invoke parcel in vscode these can be seen in the NPM SCRIPTS view.
+the project uses npm scripting to invoke parcel in vscode these can be seen in the NPM SCRIPTS view. To set up the project you need to run ```npm install``` . If you are in visual studio code you can right click on ```package.json``` in the NPM SCRIPTS view to run the install. 
 
 ![npm](images/npmscripts.png)
 
